@@ -1,0 +1,150 @@
+@media screen and (max-width: 700px) {
+  /* header starts here */
+  .desktop {
+    display: none;
+  }
+
+  .mobileview {
+    height: 774px;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    display: flex;
+    flex-direction: column;
+    background: url("./resources/header.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .logo-actionbuttons {
+    margin: 51px 0px 90px 0px;
+  }
+
+  .right-div {
+    width: 100%;
+
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .right-div_img {
+    display: none;
+  }
+
+  .right-div_image {
+    display: none;
+  }
+
+  .actionbuttons ul {
+    display: none;
+  }
+
+  .logo h1 {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 2px;
+    text-align: left;
+    color: white;
+  }
+
+  .title-description {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .title-description h6 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: white;
+  }
+
+  .title-description h1 {
+    font-size: 65px;
+    font-weight: 400;
+    line-height: 75px;
+    letter-spacing: -0.30000001192092896px;
+    text-align: center;
+    color: white;
+    margin: 24px 0;
+  }
+
+  .title-description p {
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: center;
+
+    color: white;
+  }
+
+  .dropdownarrow {
+    margin: 0px;
+    border-color: white;
+    color: white;
+    margin-bottom: 170px;
+  }
+  /* header ends here */
+
+  /* std starts here */
+  .std {
+    flex-direction: column;
+    padding: 0 32px;
+  }
+
+  .std_left-div {
+    width: 100%;
+    margin: 48px 0;
+  }
+
+  .std_right-div {
+    width: 100%;
+  }
+
+  .std-content {
+    /* padding: 10px; */
+    margin: 20px 0;
+    padding: 0;
+  }
+  /* std ends here */
+  /* footer section starts here */
+
+  .footerstatement {
+    display: none;
+  }
+
+  .emailbutton {
+    flex-direction: column;
+  }
+
+  .emailbutton input {
+    height: 49px;
+    width: 311px;
+    margin-bottom: 10px;
+  }
+
+  .emailbutton button {
+    height: 49px;
+    width: 311px;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0.30000001192092896px;
+  }
+  /* footer section ends here */
+}
