@@ -110,7 +110,7 @@ h1 {
   /* align-items: center; */
 }
 
-.actionbuttons {
+.desktop .actionbuttons {
   /* border: var(--bd); */
   display: flex;
 }
@@ -179,6 +179,8 @@ h1 {
   letter-spacing: 0px;
   text-align: left;
 }
+
+
 
 .dropdownarrow {
   height: 50px;
