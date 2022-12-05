@@ -300,7 +300,6 @@ footer {
 .footerstatement {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: left;
 }
 
